@@ -34,4 +34,25 @@ html {
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background:var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/assets/background2.png);
+}
+
+/* =======Styles======== */
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 500;
+}
+h1{
+    font-size: 2.5rem;
+}
+section{
+    margin-top:8rem;
 }
