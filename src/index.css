@@ -130,3 +130,18 @@ img {
         margin-bottom: 2rem;
     }
 }
+
+@media screen and (max-width:1024px){
+header {
+height: 68vh;
+}
+}
+
+@media screen and (max-width:600px){
+header {
+    height: 100vh;
+}
+.header_socials, .scroll_down {
+    display: none;
+}
+}
