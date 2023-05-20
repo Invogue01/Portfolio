@@ -1,6 +1,19 @@
 import React from "react";
 import "./about.css";
 import ME from '../../assets/me-about1.jpeg'
+import {SiNodedotjs}from 'react-icons/si'
+import {SiExpress} from 'react-icons/si'
+import {SiMongodb} from 'react-icons/si'
+import {GrReactjs} from 'react-icons/gr'
+import {SiMysql} from 'react-icons/si'
+import {FiGithub} from 'react-icons/fi'
+import {FiGitlab} from 'react-icons/fi'
+import {SiMicrosoftword} from 'react-icons/si'
+import {SiMicrosoftexcel} from 'react-icons/si'
+import {SiMicrosoftpowerpoint} from 'react-icons/si'
+import {SiGimp} from 'react-icons/si'
+
+
 
 const About = () => {
   return <section id='about'>
@@ -12,12 +25,42 @@ const About = () => {
           <img src={ME} alt='Author Image'></img>
         </div>
       </div>
-      <div className="about_content">
+      <div className="about__content">
         <div className="about__cards">
           <article className="about__card">
+           
+            <h5>Skills</h5>
+            <SiMongodb className="skills__icon"/>
+            <GrReactjs className="skills__icon"/>
+            <SiExpress className="skills__icon"/>
+            <SiNodedotjs className="skills__icon"/>
+            <SiMysql className='skills__icon'/>
+            <FiGithub className='skills__icon'/>
+            <small></small>
+          </article>
+          <article className="about__card">
             
+            <h5>Version Control</h5>
+            <FiGithub className='version__icon'/>
+            <FiGitlab className='version__icon'/>
+            
+            <small></small>
+          </article>
+          <article className="about__card">
+           
+            <h5>Transferable Skills</h5>
+            <SiMicrosoftword className='skills__icon'/>
+            <SiMicrosoftexcel className='skills__icon'/>
+            <SiMicrosoftpowerpoint className='skills__icon'/>
+            <SiGimp className='skills__icon'/>
+
+            <small></small>
           </article>
         </div>
+        <p>
+        Collaborative and results-oriented Full-Stack Web Developer with a background in Business Management. Graduated with a Boot Camp Certificate from the University of Birmingham, which focused on gaining technical programming skills in JavaScript, SQL, React, MongoDB, Node, and Express. With a Business Management Degree (Upper 2nd class BA) from University College of Food Birmingham, passionate about utilising earned education and skills to build intuitive user experiences on the web. Experience includes developing strategies to support process improvements, conducting code reviews, and working closely with cross-functional teams to ensure high-quality deliverables. Career aspirations include expanding technical expertise and contributing to innovative web solutions that drive business results.
+        </p>
+        <a href="#contact" className="btn btn-primary">Let's Talk</a>
       </div>
 
     </div>
