@@ -7,6 +7,17 @@ import IMG4 from '../../assets/web4.png'
 import IMG5 from '../../assets/web5.png'
 import IMG6 from '../../assets/web6.png'
 
+
+const data =[
+  {
+    id:1,
+    image:IMG1,
+    title: 'Coding Jobs Website'
+    github:'https://github.com/Invogue01/codeBusters-gig',
+    demo:'https://invogue01.github.io/codeBusters-gig/'
+  }
+]
+
 const Portfolio = () => {
   return <section id='portfolio'>
 <h5>My previous Projects</h5>
@@ -23,56 +34,7 @@ const Portfolio = () => {
   <a href="https://github.com" className='btn btn-primary'target='_blank'>Demo</a>
   </div>
 </article>
-<article className='portfolio__item'>
-  <div className="portfolio__item-image">
-   <img src={IMG2} alt="socialAPI landing page" />
-  </div>
-  <h3>Title</h3>
-  <div className="portfolio__item-cta">
-  <a href="https://github.com" className='btn' target='_blank'>Github</a>
-  <a href="https://github.com" className='btn btn-primary'target='_blank'>Demo</a>
-  </div>
-</article>
-<article className='portfolio__item'>
-  <div className="portfolio__item-image">
-   <img src={IMG3} alt="Note Taking website landing page" />
-  </div>
-  <h3>Title</h3>
-  <div className="portfolio__item-cta">
-  <a href="https://github.com" className='btn' target='_blank'>Github</a>
-  <a href="https://github.com" className='btn btn-primary'target='_blank'>Demo</a>
-  </div>
-</article>
-<article className='portfolio__item'>
-  <div className="portfolio__item-image">
-   <img src={IMG4} alt="employees server code picture" />
-  </div>
-  <h3>Title</h3>
-  <div className="portfolio__item-cta">
-  <a href="https://github.com" className='btn' target='_blank'>Github</a>
-  <a href="https://github.com" className='btn btn-primary'target='_blank'>Demo</a>
-  </div>
-</article>
-<article className='portfolio__item'>
-  <div className="portfolio__item-image">
-   <img src={IMG5} alt="readMe file generator app code picture" />
-  </div>
-  <h3>Title</h3>
-  <div className="portfolio__item-cta">
-  <a href="https://github.com" className='btn' target='_blank'>Github</a>
-  <a href="https://github.com" className='btn btn-primary'target='_blank'>Demo</a>
-  </div>
-</article>
-<article className='portfolio__item'>
-  <div className="portfolio__item-image">
-   <img src={IMG6} alt="weather API website landing page" />
-  </div>
-  <h3>Title</h3>
-  <div className="portfolio__item-cta">
-  <a href="https://github.com" className='btn' target='_blank'>Github</a>
-  <a href="https://github.com" className='btn btn-primary'target='_blank'>Demo</a>
-  </div>
-</article>
+
 
 </div>
 
