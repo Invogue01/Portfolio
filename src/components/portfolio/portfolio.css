@@ -1,7 +1,10 @@
+
+
 .portfolio__container {
     display: grid;
+   
     grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .portfolio__item{
@@ -24,12 +27,15 @@ background-color: rgba(0,0,0,0.5);
 
 .portfolio__item h3{
 margin: 1.2rem 0 2rem;
+
 }
 
 .portfolio__item-cta{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+   
+    
 }
 
 /*===== Media Screens =====*/
@@ -38,12 +44,16 @@ margin: 1.2rem 0 2rem;
    .portfolio__container{
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
+    
    }
     }
     
     @media screen and (max-width:600px){
+
    .portfolio__container{
     grid-template-columns: 1fr;
     gap:1rem;
+    
    }
+  
 }

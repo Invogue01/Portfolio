@@ -60,9 +60,10 @@ margin: 0.3rem;
     cursor: default;
 }
 
-.about__content p{
+.about__content p{ 
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    
 }
 
 /*===== Media Screens =====*/
@@ -71,6 +72,7 @@ margin: 0.3rem;
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
+       
     }
     .about__me{
         width: 50%;
@@ -78,6 +80,7 @@ margin: 0.3rem;
     }
     .about__content p{
         margin: 1rem 0 1.5rem;
+        
     }
     .about__me-image{
         max-height: 125%;
@@ -85,7 +88,7 @@ margin: 0.3rem;
     }
     
     @media screen and (max-width:600px){
-        
+   
     .about__me{
         width: 65%;
         margin: 0 auto 3rem;
@@ -101,8 +104,9 @@ margin: 0.3rem;
         text-align: center;
     }
     .about__content p{
-        margin: 1.5rem 0;
        
+        margin: 1.5rem 0;
+        
     }
 }
 
