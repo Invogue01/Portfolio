@@ -11,14 +11,19 @@ const Contacts = () => {
       <div className="container contact__container">
         <div className="contact_options">
           <article className="contact__option">
-            <MdOutlineEmail/>
+            <MdOutlineEmail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>aleatrengrouse@gmail.com</h5>
-            <a href="mailto:aleatrengrouse@gmail.com">Send a Message</a>
+            <a href="mailto:aleatrengrouse@gmail.com" target="_blank">Send a Message</a>
           </article>
         </div>
         {/*End of Contact Options*/}
-        <form action=""></form>
+        <form action="">
+          <input type="text" name="name"placeholder="Your Full Name"require />
+          <input type="email"name="email" placeholder="Your Email" required/>
+          <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+          <button type="submit" className="btn btn-primary">Send Message</button>
+        </form>
 
       </div>
     </section>

@@ -120,6 +120,9 @@ img {
     section {
         margin-top: 6rem;
     }
+    header {
+        height: 68vh;
+        }
 }
 
 /*========Small Screen=========*/
@@ -131,19 +134,11 @@ img {
     section > h2 {
         margin-bottom: 2rem;
     }
+    header {
+        height: 100vh;
+    }
+    .header_socials, .scroll_down {
+        display: none;
+    }
 }
 
-@media screen and (max-width:1024px){
-header {
-height: 68vh;
-}
-}
-
-@media screen and (max-width:600px){
-header {
-    height: 100vh;
-}
-.header_socials, .scroll_down {
-    display: none;
-}
-}
