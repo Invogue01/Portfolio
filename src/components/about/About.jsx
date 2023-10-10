@@ -54,7 +54,7 @@ const About = () => {
             <SiMicrosoftpowerpoint className='skills__icon'/>
             <SiGimp className='skills__icon'/>
 
-            <small></small>
+           
           </article>
         </div>
         <p>
