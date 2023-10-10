@@ -11,7 +11,7 @@ Please also view on Mobile device.
 
 ## Website Link
 
-[https://invogue01.github.io/Portfolio/](https://invogue01.github.io/Portfolio/)
+[https://invogue01.github.io/Portfolio/index.html](https://invogue01.github.io/Portfolio/index.html)
 
 ## Mock-Up
 
