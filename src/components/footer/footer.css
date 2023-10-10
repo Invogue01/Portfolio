@@ -1,0 +1,39 @@
+footer{
+    background: var(--color-primary);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+
+footer a {
+color: white;
+padding: 0.5rem;
+justify-content: center;
+}
+
+.footer__logo{
+display: inline-block;
+width: 200px;
+height: auto;
+
+
+}
+
+.socials__icon{
+    background-color: var(--color-bg);
+    width: 25px;
+    padding: 0.2rem;
+    gap: 0.5rem;
+    justify-content: center;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+
+.footer__socials a:hover{
+background: transparent;
+color: var(--color-white);
+background-color: var(--color-white);
+
+}
