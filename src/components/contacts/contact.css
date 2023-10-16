@@ -1,21 +1,24 @@
 .container.contact__container {
-    width: 58%;
+    width: 68%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
 }
 
-.contact__options{
+.contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
 
-.contact__option{
+.contact__option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  white-space: nowrap;
     border: 1px solid transparent;
     transition: var(--transition);
 }

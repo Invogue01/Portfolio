@@ -1,17 +1,12 @@
 import React from "react";
 import "./about.css";
 import ME from '../../assets/me-about1.jpeg'
-import {SiNodedotjs}from 'react-icons/si'
-import {SiExpress} from 'react-icons/si'
-import {SiMongodb} from 'react-icons/si'
+import {SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiGimp}from 'react-icons/si'
 import {GrReactjs} from 'react-icons/gr'
-import {SiMysql} from 'react-icons/si'
 import {FiGithub} from 'react-icons/fi'
 import {FiGitlab} from 'react-icons/fi'
-import {SiMicrosoftword} from 'react-icons/si'
-import {SiMicrosoftexcel} from 'react-icons/si'
-import {SiMicrosoftpowerpoint} from 'react-icons/si'
-import {SiGimp} from 'react-icons/si'
+import {SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftpowerpoint} from 'react-icons/si'
+import {BiLogoTailwindCss} from 'react-icons/bi'
 
 
 
@@ -36,6 +31,7 @@ const About = () => {
             <SiNodedotjs className="skills__icon"/>
             <SiMysql className='skills__icon'/>
             <FiGithub className='skills__icon'/>
+            <BiLogoTailwindCss className='skills__icon'/>
             <small></small>
           </article>
           <article className="about__card">
