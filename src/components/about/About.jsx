@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from '../../assets/me-about1.jpeg'
+import ME from '../../assets/me_1911.jpeg'
 import {SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiGimp}from 'react-icons/si'
 import {GrReactjs} from 'react-icons/gr'
 import {FiGithub} from 'react-icons/fi'
