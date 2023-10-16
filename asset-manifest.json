@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4142d676.css",
-    "main.js": "/Portfolio/static/js/main.1ac4d164.js",
+    "main.css": "/Portfolio/static/css/main.df59a7ad.css",
+    "main.js": "/Portfolio/static/js/main.6e7eb33e.js",
     "static/media/web2.gif": "/Portfolio/static/media/web2.87cd3de505268b026a1b.gif",
     "static/media/me-about1.jpeg": "/Portfolio/static/media/me-about1.15bb599a413949183e90.jpeg",
     "static/media/web3.png": "/Portfolio/static/media/web3.5787041afd0a14f80590.png",
     "static/media/web1.png": "/Portfolio/static/media/web1.90ab59afcd5821a46fc1.png",
     "static/media/me2.png": "/Portfolio/static/media/me2.0a73d8319f902a7cd5f1.png",
+    "static/media/A.Lea-Trengrouse131023.pdf": "/Portfolio/static/media/A.Lea-Trengrouse131023.28d838e3bef9fafc6950.pdf",
     "static/media/web4.png": "/Portfolio/static/media/web4.e4ecbf4b02ab7dd3adb1.png",
-    "static/media/AndreaLT-CV.docx.pdf": "/Portfolio/static/media/AndreaLT-CV.docx.7c21414896d6cf0c39a1.pdf",
     "static/media/logo-no-background.png": "/Portfolio/static/media/logo-no-background.21a8e086d9f4d869da84.png",
     "index.html": "/Portfolio/index.html",
-    "main.4142d676.css.map": "/Portfolio/static/css/main.4142d676.css.map",
-    "main.1ac4d164.js.map": "/Portfolio/static/js/main.1ac4d164.js.map"
+    "main.df59a7ad.css.map": "/Portfolio/static/css/main.df59a7ad.css.map",
+    "main.6e7eb33e.js.map": "/Portfolio/static/js/main.6e7eb33e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4142d676.css",
-    "static/js/main.1ac4d164.js"
+    "static/css/main.df59a7ad.css",
+    "static/js/main.6e7eb33e.js"
   ]
 }
