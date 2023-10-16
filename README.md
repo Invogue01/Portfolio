@@ -18,7 +18,7 @@ Please also view on Mobile device.
 The following image shows the web application's appearance
 
 ![Andrea Mac Portfolio](../../Portfolio/main-portfolio/src/assets/website.png)
-(https://invogue01.github.io/amac-portfolio/)
+(https://github.com/Invogue01/Portfolio/tree/gh-pages)
 
 ## Mock-Up
 
